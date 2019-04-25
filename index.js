@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-const brokenPayload = fs.readFileSync('./payloads/working.html', 'utf-8');
+const brokenPayload = fs.readFileSync('./payloads/broken.html', 'utf-8');
 const workingPayload = fs.readFileSync('./payloads/working.html', 'utf-8');
 
 let html = brokenPayload;
